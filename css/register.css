@@ -1,0 +1,44 @@
+.register_form {
+	width: 80%;
+	margin: 0 auto;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.register_form h1 {
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 24px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.register_form input[type="password"],
+.register_form input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #dddddd;
+	margin-bottom: 15px;
+	box-sizing:border-box;
+}
+.register_form input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: #535b63;
+	border: 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+div.polaroid {
+    max-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+	padding: 15px 10px 20px 10px;
+	transform: translateY(55%);
+    margin: auto;
+
+@media only screen and (max-width: 450px) {
+	div.polaroid {
+		transform: translateY(0%);
+	}
+}

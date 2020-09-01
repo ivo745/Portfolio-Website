@@ -1,0 +1,20 @@
+iframe{float: left; width: 100%}
+hr{color: #0DB20A;}
+#hr-1 hr{color: black; width: 60%; float: left; border-style: solid;}
+#hr-2 hr{color: black; width: 20%; float: right; border-style: solid;}
+#iframe {width: 100%;}
+.iframeee {display: inline-box; width: 100% !important; height: 350px !important;}
+#contactgevens{height: 30px; width: 100%; color: #0DB20A; text-shadow: 1px 1px 1px #099607;}
+#ons-adres{float: right; margin-top: 10px; font-family: Tahoma, Geneva, sans-serif;}
+#form-name{float: left; margin-top: 10px;}
+#form-name p{font-family: Tahoma, Geneva, sans-serif;}
+#form-email{float: left; margin-top: 10px;}
+#form-tel{float: left; margin-top: 10px;}
+#form-comment{float: left; width: 100%; margin-top: 80px; margin-left: -3px;}
+input[type=text], textarea {border: 1px solid grey;}
+input[type=text]:focus, textarea:focus {box-shadow: 0 0 5px rgba(81, 203, 238, 1); border: 1px solid rgba(81, 203, 238, 1);}
+.container table p{color: black; font-family: Tahoma, Geneva, sans-serif;}
+#school-green{font-family: Tahoma, Geneva, sans-serif; color: #ffff00;}
+#telefoon{margin-top: 50px; color: grey; font-family: Tahoma, Geneva, sans-serif;}
+#telefoon-green{color: #ffff00;}
+.textarea { width: 100%; }

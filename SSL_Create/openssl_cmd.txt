@@ -1,0 +1,8 @@
+openssl genrsa 2048 > "C:/newcerts/ca-key.pem"
+openssl req -new -x509 -nodes -days 3600 -key "C:/newcerts/ca-key.pem" > "C:/newcerts/ca-cert.pem"
+
+openssl req -newkey rsa:2048 -days 3600 -nodes -keyout "C:/newcerts/server-key.pem" > "C:/newcerts/server-req.pem"
+openssl x509 -req -in "C:/newcerts/server-req.pem" -days 3600 -CA "C:/newcerts/ca-cert.pem" -CAkey "C:/newcerts/ca-key.pem" -set_serial 01 > "C:/newcerts/server-cert.pem"
+
+openssl req -newkey rsa:2048 -days 3600 -nodes -keyout "C:/newcerts/client-key.pem" > "C:/newcerts/client-req.pem"
+openssl x509 -req -in "C:/newcerts/client-req.pem" -days 3600 -CA "C:/newcerts/ca-cert.pem" -CAkey "C:/newcerts/ca-key.pem" -set_serial 01 > "C:/newcerts/client-cert.pem"
